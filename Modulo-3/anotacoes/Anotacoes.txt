@@ -1,0 +1,8 @@
+Algumas anotações pois sobre git e githubja não sei muito então irei anotar o basico para não perder no final de tudo.
+
+git => Sistema de versionamento de codigo local.
+Cria versões do codigo localmente no proprio computador.
+
+GITHUB => Repositorio remoto Basicamente guarda os arquivos salvos no git e joga na nuvem para se caso algo acontecer com o computador conseguir acessar de outro somente usando o git e github.
+
+Ambos são gratis então não tem muito problema mas tem algumas limitações.

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMAGEM ADAPTATIVA</title>
+
+    <style>
+      img#imagem2 {
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <picture id="imagem">
+      <source media="(max-width:730px )" srcset="imagens/imagens-p.png" />
+      <source media="(max-width:1030px )" srcset="imagens/imagens-M.png" />
+      <img src="imagens/imagens-G.png" alt="imagem grande" id="imagem2" />
+    </picture>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Site Semantico</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: "JetBrains Mono";
+            background-color: antiquewhite;
+        }
+
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        h1 {
+            font-size: 5rem;
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(44, 0, 67, 0.5);
+        }
+
+        header {
+            background-color: rgb(197, 197, 197);
+            width: 100%;
+            overflow: hidden;
+            /* Para conter os elementos flutuantes */
+            padding: 7px;
+            height: 100px;
+        }
+
+        header>h2 {
+            font-size: 4rem;
+            float: left;
+            /* Alinha o título à esquerda */
+            line-height: 100px;
+            /* Ajusta para alinhar verticalmente ao centro com a navegação */
+        }
+
+        header>h2:hover {   
+            border: 1px dashed rgba(0, 0, 0, 0.34);
+        }
+
+        nav {
+            margin-right: 50px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            font-size: 13pt;
+            display: inline;
+            margin-left: 10px;
+            margin-right: 10px;
+            /* Espaçamento entre os itens da lista */
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            line-height: 100px;
+            /* Ajusta a altura dos links para alinhá-los com o título */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            border: 1px dashed rgba(0, 0, 0, 0.34);
+        }
+
+        article.card{
+            background-color: rgb(141, 141, 141);
+            border-radius: 10px;
+            padding: 5px 10px;
+            margin: 20px auto 20px auto;   
+            max-width: 800px;
+        }
+
+        article.card>p{
+            padding: 2px 70px 2px 70px;
+        }
+
+        article#principal>h3 {
+            font-size: 0.9rem;
+            text-align: right;
+        }
+
+        article#secundario>h3 {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+footer{
+    background-color: rgb(56, 56, 56);
+
+}
+footer>p{
+    text-align: center;
+    color: white;
+
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Site</h2>
+        <nav>
+            <ul>
+                <li><a href="#" target="_self"> <i class="fas fa-home"></i> home</a></li>
+                <li><a href="#" target="_self"> <i class="fa-solid fa-gear"></i> options</a></li>
+                <li><a href="#" target="_self"> <i class="fa-solid fa-bars"></i> main</a></li>
+                <li><a href="#" target="_self"> <i class="fa-solid fa-user-secret"></i> contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Titulo Principal</h1>
+        <article class="card" id="principal">
+            <h2>TITULO 1</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nihil cupiditate laboriosam temporibus
+                dolores? Asperiores deleniti corrupti id eius. Quam, nobis praesentium dignissimos dolor saepe
+                repellendus? Porro dolore maiores veniam!</p>
+                <h3>Escrito por Biscuits</h3>
+            <h2>TITULO 2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nihil cupiditate laboriosam temporibus
+                dolores? Asperiores deleniti corrupti id eius. Quam, nobis praesentium dignissimos dolor saepe
+                repellendus? Porro dolore maiores veniam!</p>
+                <h3>Escrito por Biscuits</h3>
+        </article>
+        <article class="card" id="secundario">
+
+            <h2>TITULO 3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nihil cupiditate laboriosam temporibus
+                dolores? Asperiores deleniti corrupti id eius. Quam, nobis praesentium dignissimos dolor saepe
+                repellendus? Porro dolore maiores veniam!</p>
+                <h3>Escrito por Ana Clara</h3>
+            <h2>TITULO 4</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nihil cupiditate laboriosam temporibus
+                dolores? Asperiores deleniti corrupti id eius. Quam, nobis praesentium dignissimos dolor saepe
+                repellendus? Porro dolore maiores veniam!</p>
+                <h3>Escrito por Ana Clara</h3>
+        </article>
+    </main>
+    <footer>
+        <p>escrito e feito por João Victor <br>
+            Direitos reservados&copy
+        </p>
+    </footer>
+</body>
+
+</html>

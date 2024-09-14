@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teste listas</title>
+
+    <style>
+      ul#total {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: #cecece;
+        margin: 50px;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+        margin-right: 200px;
+        list-style: none;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="total">
+      <li id="console-ps4">PS4</li>
+      <ul type="square" id="ps4" class="sublist">
+        <li>Bloodborne</li>
+        <li>RDR2</li>
+        <li>tests</li>
+      </ul>
+      <li>PS5</li>
+      <ul type="square" id="ps5" class="sublist">
+        <li>Bloodborne</li>
+        <li>BLACK MITH WUKONG</li>
+        <li>Hogwarts Legacy</li>
+      </ul>
+      <li>PC</li>
+      <ul type="square" id="pc" class="sublist">
+        <li>Stardew Valley</li>
+        <li>Graveyard Keeper</li>
+        <li>Summoners War</li>
+      </ul>
+      <li>NINTENDO</li>
+      <ul type="square" id="nintendo" class="sublist">
+        <li>Pokemon FireRed</li>
+        <li>Pokemon OmegaRuby</li>
+        <li>Pokemon legends Arceus</li>
+        <li>Pokemon Sword</li>
+        <li>Pokemon scarlet</li>
+      </ul>
+    </ul>
+  </body>
+</html>
