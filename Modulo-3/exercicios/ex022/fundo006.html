@@ -13,11 +13,13 @@
       }
       body {
         height: 100vh;
-        background-color: aquamarine;
-        background-image: url("assets/wallpaper002.jpg");
-        background-repeat: no-repeat;
+        background: aquamarine url("assets/wallpaper002.jpg") center right
+          no-repeat fixed;
         background-size: cover;
-        background-position: center right;
+        /*
+        background: color => image => position => repeat => [size] => attachment
+        Com shorthand para evitar escritas desnecessarias que só iriam poluir o codigo porem lembrando de deixar o size de fora até os navegadores aceitarem de uma vez.
+        */
       }
       main {
         background-color: white;
@@ -32,6 +34,13 @@
       }
       main h1 {
         text-align: center;
+      }
+      footer {
+        font-weight: bolder;
+        font-size: 12pt;
+        text-align: center;
+        background: white;
+        padding: 15px;
       }
     </style>
   </head>
@@ -53,6 +62,25 @@
         officia quas maiores non dolorem natus necessitatibus, accusamus
         laboriosam vitae cum.
       </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+        minima corporis ullam optio maiores aperiam doloribus! Ipsa architecto
+        dolor repellendus at dolore id velit sit? Eum quae aut commodi dolores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+        dolores cum quae alias repudiandae natus, odit voluptas ullam explicabo
+        quidem sint aliquam ipsam maxime, a dolore autem quas laborum deserunt?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum
+        unde libero. Repellendus, ea commodi inventore amet eos ullam eveniet
+        reprehenderit omnis nobis non nisi quas, eligendi est aspernatur beatae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium rem
+        molestias aut, placeat, corrupti animi alias magnam impedit recusandae
+        officia quas maiores non dolorem natus necessitatibus, accusamus
+        laboriosam vitae cum.
+      </p>
     </main>
+
+    <footer>
+      <p>Direitos reservados gustavo Guanabara &copy;</p>
+    </footer>
   </body>
 </html>
