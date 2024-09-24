@@ -12,3 +12,32 @@ Ambos são gratis então não tem muito problema mas tem algumas limitações.
 
 shorthand do background : background: color => image => position => repeat => [size] => attachment;
 DETALHE o size ainda não funciona direito em todos os navegadores então o melhor por enquanto deixar o size separado para evitar quebras de codigo em alguns navegadores......
+
+
+
+CAP 21--
+TABELAS.
+Não pode usar tabelas pra crias a estrutura do site (Eu acho meio obvio mas ele mandou anotar.)
+
+Como ultilizar tabelas da forma certa.
+
+Exemplo de tabelas: Tem varios locais do wikipedia que usam tabela então Pra ver como eles ultilizam só ir la.
+
+TABELAS SÃO IMPORANTE PARA UM SITE POREM TEM QUE SE USAR DA FORMA CERTA DENTRO DO SITE.
+
+HIERARQUIAS DE TABELAS (SIMPLES)
+TABLE: = tabela  (<table>)
+    CAPTION(<caption>)
+    TABLE ROW = linha de tabela (<tr>)
+        TABLE HEADER = Cabeçalho da tabela (<th>)
+        TABLE DATA = dados de tabela(<td>)
+
+O W3C deixou opcional o uso do fechamento das tags td da tabela
+TD = TABLE DATA
+
+Ultilizar este tipo de anatomia é mais para tabelas bem grandes mas é possivel Ultilizar
+Elas mesmo com tabelas pequenas pois mesmo pequenas vão ganhar um ar mais profissinal se feita da forma certa.
+
+CAPTION E ESCOLO DE TITULOS
+
+
