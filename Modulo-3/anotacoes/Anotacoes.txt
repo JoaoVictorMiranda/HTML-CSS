@@ -59,3 +59,5 @@ No video diz para baixar algo do desafio 013 porem ficou estranho e não tive ac
 
 
 
+EFEITO ZEBRADO: Pode se fazer dessa forma:
+tbody > tr:nth-child(odd) Com a Pseudo classe :nth-child(odd) Ou even também serve sendo par ou impar pra poder decorar e fazer a linha mais facil de ler dependendo da quantidade de coisas e do  tamanho da letra.
