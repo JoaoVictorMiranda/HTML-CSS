@@ -38,6 +38,24 @@ TD = TABLE DATA
 Ultilizar este tipo de anatomia é mais para tabelas bem grandes mas é possivel Ultilizar
 Elas mesmo com tabelas pequenas pois mesmo pequenas vão ganhar um ar mais profissinal se feita da forma certa.
 
-CAPTION E ESCOLO DE TITULOS
+
+Para manter os titulos colados na parte de cima da tabela ao rolar para baixo em uma tabela grande pode se fazer da seguinte forma:
+
+No table{
+    position: relative;
+}
+thead > tr> th{
+    position: sticky;
+    top: 0px; 
+    background-clor: #cor usada originalmente; /* Para poder manter a cor do background do titulo original */
+}
+
+
+
+MESCLAGEM DE CELULAS...
+Aprendizado de mesclagem de CELULAS
+No video diz para baixar algo do desafio 013 porem ficou estranho e não tive acesso porem farei sem os arquivos mesmo opis o desafio 013 do github esta no modulo 4.
+
+
 
 
