@@ -69,3 +69,10 @@ Quando tem um TH com mais de um conteudo por exemplo
 
 Um th com span 3 usa se colgroup para marcar que aquelas 3 colunas que ele esta ocupando pertecem a ele.
 
+
+Trabalhando com colgroup para agrupar as colunas e não ter trabalho mudando celula por celula dentro das colunas para mudar a configuração delas
+
+
+
+Ultilizando uma div envolta da tabela para usar o OVERFLOW - x
+Para poder rolar a tabela sem afetar o resto do conteudo para não deixar a visualização do site em celulares ou dispositivos pequenos
